@@ -1,0 +1,29 @@
+{
+    "name": "jan-herman/kirby-minify-html",
+    "description": "Kirby plugin that minifies Kirby's HTML output.",
+    "version": "1.0.0",
+    "type": "kirby-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jan Herman",
+            "email": "mail@janherman.com",
+            "homepage": "https://janherman.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "getkirby/composer-installer": "^1.2"
+    },
+    "extra": {
+		"installer-name": "minify-html"
+	},
+    "config": {
+        "optimize-autoloader": true
+    },
+    "autoload": {
+        "psr-4": {
+            "JanHerman\\MinifyHtml\\": "lib/"
+        }
+    }
+}
