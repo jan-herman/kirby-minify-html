@@ -27,7 +27,7 @@ class HtmlMinifier
 
     public function __toString()
     {
-        return $this->html;
+        return (string) $this->html;
     }
 
     protected function bottomComment($raw, $compressed)

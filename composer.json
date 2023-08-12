@@ -1,9 +1,10 @@
 {
     "name": "jan-herman/kirby-minify-html",
     "description": "Kirby plugin that minifies Kirby's HTML output.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "type": "kirby-plugin",
     "license": "MIT",
+    "homepage": "https://github.com/jan-herman/kirby-minify-html",
     "authors": [
         {
             "name": "Jan Herman",
